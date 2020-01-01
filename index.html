@@ -27,14 +27,30 @@
     }
         /* Smartphone View */
         @media all and (max-width: 767px){
-        .main-wrapper{
+
+        #main-wrapper{
             width:100%;
         }
+
         .main-container{
             width:100%
         }            
+
         .disclaimer{
             display: none;
+        }
+
+        .three-million-installs{
+            width: 100%;
+        } 
+        
+        
+        .personal-brand .left-column{
+            width:100%;
+        }
+
+        .personal-brand .right-column{
+            width:100%;
         }
     }     
     </style>
@@ -65,7 +81,7 @@
 <tr>
     <td>
 <!-- begin parent-table for 3-million-installs section-1 -->
-        <table class="3-million-installs" width="100%" 
+        <table class="three-million-installs" width="100%" 
         align="center" border="0" cellspacing="0" 
         cellpadding="0" style="margin:0; padding:0; 
         padding:20px 20px; color:#ffffff;
@@ -105,7 +121,9 @@
             </tr> 
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
+                    <a href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-decoration:none; color:black;
+                    letter-spacing:5px; font-weight:300;">
                         <p style="color:black; border:1px solid white; 
                         border-radius:7px; background-color:white;
                         padding:20px 40px;">
@@ -114,14 +132,14 @@
                     </a>
                 </td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>
                     <p>
                         How to successfully promote 
                         your services on social media.
                     </p>
                 </td>
-            </tr>
+            </tr> -->
         </table>
 <!-- end parent-table for 3-million-installs section-1 -->
     </td>
@@ -180,10 +198,6 @@ style="margin-top:100px;">
   </td>
 </tr> 
 <!-- end parent-row for personal-brand section-2 -->
-
-
-
-
 <!-- begin table for accept-payments for section-3 -->
 <tr class="accept-payments" 
 style="margin-top:100px;">
@@ -235,11 +249,6 @@ border="0" style="padding:0px 20px 70px 4=20px;">
   </td>
 </tr> 
 <!-- end table for accept-payments for section-3 -->
-
-
-
-
-
 <!-- begin parent-row for ux-design section-4 -->
 <tr class="ux-design" 
 style="margin-top:100px;">
@@ -291,28 +300,23 @@ border="0" style="padding:0px 20px 70px 20px;">
   </td>
 </tr> 
 <!-- end parent-row for ux-design section-4 -->
-
-
-
+<!-- begin parent-row for more-goodies section-5 -->
+<!-- begin header -->
 <tr>
     <td>
-<!-- begin row for section-4 -->
-<!-- <tr class="section-4" -->
 <tr>
     <td>
-        <h4 style="text-align:center;">
+        <h3 style="text-align:center; letter-spacing: 5px;">
             More Goodies
-        </h4>
+        </h3>
     </td>
 </tr>
-
-
-
+<!-- end header -->
 <!-- begin parent-row for 12-templates section-5 -->
-<tr class="ux-design" 
+<tr class="twelve-templates" 
 style="margin-top:100px;">
     <td>
-<!-- begin left-column -->
+<!-- begin left-column for 12 temples -->
         <table class="left-column" width="50%" 
         align="left" cellspacing="0" cellpadding="0" 
         border="0" style="margin-bottom:100px;
@@ -340,10 +344,8 @@ style="margin-top:100px;">
                 </td>
             </tr>
         </table>  
-    <!-- end left-column -->
-
-
-    <!-- begin right-column -->
+    <!-- end left-column for 12 templates -->
+    <!-- begin right-column for vito peleg -->
     <table class="left-column" width="50%" 
         align="left" cellspacing="0" cellpadding="0" 
         border="0"  style="margin-bottom:100px;
@@ -371,21 +373,19 @@ style="margin-top:100px;">
                 </td>
             </tr>
         </table> 
-<!-- end right-column -->
+<!-- end right-column for vito peleg -->
   </td>
 </tr> 
-<!-- end parent-row for 12-templates section-5 -->
-
-
-
-
+<!-- end parent-row for vito peleg -->
 <!-- begin the footer -->
 <tr>
-    <tr>
-        <hr/>
-        <table class="left-column" width="100%" 
-            align="left" cellspacing="0" cellpadding="0" 
-            border="0" style="margin-bottom:100px;">
+    <td>
+        <!-- <hr/> -->
+        <table class="footer" width="100%" 
+            align="center" cellspacing="0" cellpadding="0" 
+            border="0" style="margin-bottom:50px; 
+            background-color:black; color:white;
+            text-align:center;">
             <tr>
                 <td>
                     <a href="https://www.facebook.com/elemntor?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
@@ -413,29 +413,49 @@ style="margin-top:100px;">
                 </td>
             </tr>
         </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table class="footer" width="100%" 
+        align="center" cellspacing="0" cellpadding="0" 
+        border="0" style="margin-bottom:50px; 
+        background-color:black; color:white;
+        text-align:center;">
             <tr>
                 <td>                
-                    <a href="https://elementor.com/blog/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <p>Elementor Magazine</p>
+                    <a href="https://elementor.com/blog/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-align:center; text-decoration:none;">
+                        <p style="background-color:black; color:white;
+                        text-align:center;">
+                            Elementor Magazine
+                        </p>
                     </a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="https://elementor.us7.list-manage.com/profile?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <p>Manage Subscription</p>
+                    <a href="https://elementor.us7.list-manage.com/profile?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-align:center; text-decoration:none;">
+                        <p style="background-color:black; color:white;">
+                            Manage Subscription
+                        </p>
                     </a>
                     - 
-                    <a href="https://elementor.us7.list-manage.com/unsubscribe?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <p>Unsubscribe</p>
+                    <a href="https://elementor.us7.list-manage.com/unsubscribe?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-align:center; text-decoration:none;">
+                        <p style="background-color:black; color:white;">
+                            Unsubscribe
+                        </p>
                     </a>
                 </td>
             </tr>
+        </table>
     </td>
 </tr>
 <!-- end the footer -->
-        <!-- </td> -->
-    <!-- </tr>      -->
+        </td>
+    </tr>     
 </table>
 <!-- end parent-table for main-container @width:600px -->
         </td>
