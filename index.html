@@ -10,40 +10,50 @@
         @media all and (max-width: 960px){
         .main-wrapper{
             width:100%;
+            text-align: center;
         }
         .main-container{
-            width:100%
+            width:100%;
+            text-align: center;
+        }
+        .disclaimer{
+            text-align: left;
         }
     }
-
         /* Tablet View */
         @media all and (min-width: 768px) and (max-width: 959px){
         .main-wrapper{
             width:100%;
+            text-align: center;
         }
         .main-container{
-            width:100%
-        }    
+            width:100%;
+            text-align: center;
+        }
+        .disclaimer{
+            text-align: left;
+        }
     }
-
         /* Smartphone View */
         @media all and (max-width: 767px){
         #main-wrapper{
             width:100%;
+            text-align: center;
         }
         .main-container{
-            width:100%
+            width:100%;
+            text-align: center;
         }
         .disclaimer{
             display: none;
         }
         .three-million-installs{
-            width: 100%;
-        }        
+            width:100%;
+            text-align: center;
+        }
         /* .personal-brand .left-column{
             width:100%;
         }
-
         .personal-brand .right-column{
             width:100%;
         } */
@@ -52,14 +62,122 @@
 </head>    
 
 
-
 <body>
 <!-- Begin parent-table for the main-wrapper @width:100% -->
     <table id="main-wrapper" width="100%" 
     align="center" border="0" 
     cellspacing="0" cellpadding="0" 
     style="background-color:#ffffff;">
-               
+
+
+<!-- begin row for disclaimer section -->
+<tr>
+    <td>
+        <table class="disclaimer" width="100%" align="center" border="0" 
+        cellspacing="0" cellpadding="0" style="background-color:aqua; 
+        text-align:left; margin:0; padding:0;
+        font-family:Arial, Helvetica, sans-serif;">
+            <tr>
+                <td style="width:30%; text-align:left; 
+                font-family:Arial, Helvetica, sans-serif; 
+                font-size:14px; color:#292929;
+                border:1px solid black; padding:20px 20px 10px 20px; 
+                vertical-align:auto;">
+                    <span style="font-weight:600; 
+                    font-size:.9rem; letter-spacing:1px;">
+                            DISCLAIMER: 
+                    </span>
+                    <br/>
+                    The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets. All images are the property of its respective owners. Please contact me if there are any issues. Thank you! 
+                </td>
+                <td style="width:40%; text-align:left; 
+                font-family:Arial, Helvetica, sans-serif; 
+                font-size:14px; color:#292929;
+                border:1px solid black; 
+                padding:20px 20px 10px 20px; vertical-align:auto;">
+                    <span style="font-weight:600; 
+                    font-size:.9rem; letter-spacing:1px;
+                    text-decoration:underline;">ELEMENTOR CELEBRATES 3 MILLION INSTALLS
+                    </span>
+                    <br/>
+                    This is a newsletter blog from elementor that markets tools to maximize the use of their wordpress page builder.
+
+                </td>
+                <td style="width:30%; text-align:left; 
+                font-family:Arial, Helvetica, sans-serif; 
+                font-size:14px; color:#292929; 
+                border:1px solid black; padding:20px 20px 10px 20px; 
+                vertical-align:auto;">
+                    <span style="font-weight:600; 
+                    font-size:.9rem; letter-spacing:1px;">
+                            TECHNOLOGIES USED:
+                    </span>
+                    <br/> html tables, html5, css3, responsive, webpack,
+                    <br/>web accessibility,
+                            <a align="center" href="https://github.com/jerome-wilson-developer/blogs_elementor-wordpress" target="_blank">
+                            GITHUB
+                            </a>, lighthouse, 
+                            <a href="https://elementor-blog-newsletter.netlify.com/" target="_blank">
+                            NETLIFY
+                            </a>.
+                    <hr/>
+                    <a align="center" style="padding:20px 2px 5px 2px;">
+                        <img src="images/icon-html-table-png-128x128-black-8.png" 
+                        width="70" height="50" 
+                        alt="icon for html5 tables"/>
+                    </a>
+                    <a align="center" style="padding:20px 2px 5px 2px;">
+                        <img src="images/icon-html5-png-128x128.png" 
+                        width="50" height="50" 
+                        alt="icon for html5"/>
+                    </a>
+                    <a align="center" style="padding:20px 2px 5px 2px;">
+                        <img src="images/icon-css3-png-128x128.png" 
+                        width="50" height="50" 
+                        alt="icon for css3"/>
+                    <a align="center" style="padding:20px 2px 5px 2px;">
+                        <img src="images/mobile-responsive-3devices-4.jpg" 
+                        width="70" height="50" 
+                        alt="icon for mobile responsive"/>
+                    </a>
+                    </a>
+                    <a align="center" style="padding:20px 2px 5px 2px;">
+                        <img src="images/icon-wai-aria-accessibility-png-128x128.png" 
+                        width="50" height="50" 
+                        alt="icon for web accessibility"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<!-- end row for disclaimer section -->      
+<!-- begin row for Udemy Logo and email metadata section -->
+<tr>
+    <td>
+        <!-- begin table for "email-metadata" section -->
+        <!-- header:tabindex="0", and, aria-landmark=role:banner -->
+        <table class="header" align="center" cellspacing="0" 
+        cellpadding="0" border="0" width="100%" 
+        style="background-color:#ffffff; 
+        color:#292929; padding:10px 20px;
+        font-family:Arial, Helvetica, sans-serif;">
+            <tr style="text-align:left; 
+            background-color:#ffffff;">
+                <td>
+                    <p>Sent from Outlook</p>
+                    <hr/>  
+                    <p>From: ELEMENTOR NEWSLETTER BLOG</p>
+                    <p>Sent: Friday, December 23, 2019 4:32AM</p>
+                    <p>To: jerome-wilson-developer@hotmail.com</p>
+                    <p>Subject: We are celebrating 3 million active installations</p>
+                </td>
+            </tr>        
+        </table>
+        <!-- end table for Udemy Logo and email metadata section -->
+    </td>
+</tr>
+<!-- end row for Udemy Logo and email metadata section -->
 <!--Begin parent-row for the email-table @600px:width -->
 <tr>
     <td>
