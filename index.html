@@ -64,16 +64,14 @@
 
 <body>
 <!-- Begin parent-table for the main-wrapper @width:100% -->
-    <table id="main-wrapper" width="100%" 
+    <table role="-1" id="main-wrapper" width="100%" 
     align="center" border="0" 
     cellspacing="0" cellpadding="0" 
     style="background-color:#ffffff;">
-
-
 <!-- begin row for disclaimer section -->
 <tr>
     <td>
-        <table class="disclaimer" width="100%" align="center" border="0" 
+        <table role="-1" class="disclaimer" width="100%" align="center" border="0" 
         cellspacing="0" cellpadding="0" style="background-color:aqua; 
         text-align:left; margin:0; padding:0;
         font-family:Arial, Helvetica, sans-serif;">
@@ -100,7 +98,7 @@
                     text-decoration:underline;">ELEMENTOR CELEBRATES 3 MILLION INSTALLS
                     </span>
                     <br/>
-                    This is a newsletter blog from elementor that markets tools to maximize the use of their wordpress page builder.
+                    This is a newsletter blog from Elementor. Elementor is currently in the top 3 wordpress pagebuilders. This newsletter markets Elementor's tools to maximize the use of their wordpress page builder and to help you build world-class, exciting, engaging wordpress websites, blogs, newsletter magazines, etc.
 
                 </td>
                 <td style="width:30%; text-align:left; 
@@ -112,11 +110,10 @@
                     font-size:.9rem; letter-spacing:1px;">
                             TECHNOLOGIES USED:
                     </span>
-                    <br/> html tables, html5, css3, responsive, webpack,
-                    <br/>web accessibility,
+                    <br/>html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA,
                             <a align="center" href="https://github.com/jerome-wilson-developer/blogs_elementor-wordpress" target="_blank">
                             GITHUB
-                            </a>, lighthouse, 
+                            </a>, lighthouse audit, 
                             <a href="https://elementor-blog-newsletter.netlify.com/" target="_blank">
                             NETLIFY
                             </a>.
@@ -143,7 +140,7 @@
                     </a>
                     <a align="center" style="padding:20px 2px 5px 2px;">
                         <img src="images/icon-wai-aria-accessibility-png-128x128.png" 
-                        width="50" height="50" 
+                        width="50" height="50" alt="icon for web accessibility"
                         alt="icon for web accessibility"/>
                     </a>
                 </td>
@@ -157,14 +154,15 @@
     <td>
         <!-- begin table for "email-metadata" section -->
         <!-- header:tabindex="0", and, aria-landmark=role:banner -->
-        <table class="header" align="center" cellspacing="0" 
+        <table class="header" align="left" cellspacing="0" 
         cellpadding="0" border="0" width="100%" 
         style="background-color:#ffffff; 
-        color:#292929; padding:10px 20px;
-        font-family:Arial, Helvetica, sans-serif;">
+        color:#292929; 
+        font-family:Arial, Helvetica, sans-serif; 
+        padding:20px 20px;">
             <tr style="text-align:left; 
             background-color:#ffffff;">
-                <td>
+                <td tabindex="0">
                     <p>Sent from Outlook</p>
                     <hr/>  
                     <p>From: ELEMENTOR NEWSLETTER BLOG</p>
@@ -203,14 +201,14 @@
                 <td style="background-color:white; padding:10px 10px;">
                     <a href="https://elementor.com/blog/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
                         <img src="images/img-logo.png" 
-                        width="25%" height="50%" 
+                        width="25%" height="50%" alt="" 
                         alt="logo for elementor"/>
                     </a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
+                    <a role="link" href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
                         <img src="images/img-hero.jpg" 
                         width="600" height="350" 
                         alt="logo for elementor"/>
@@ -233,7 +231,7 @@
             </tr> 
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="button" href="https://elementor.com/blog/celebrating-3-million-active-installations/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="text-decoration:none; color:black;
                     letter-spacing:5px; font-weight:300;">
                         <p style="color:black; border:1px solid white; 
@@ -244,19 +242,14 @@
                     </a>
                 </td>
             </tr>
-            <!-- <tr>
-                <td>
-                    <p>
-                        How to successfully promote 
-                        your services on social media.
-                    </p>
-                </td>
-            </tr> -->
         </table>
 <!-- end parent-table for 3-million-installs section-1 -->
     </td>
 </tr>
 <!-- end parent-row for 3-million-installs section-1 -->
+
+
+
 <!-- begin parent-row for personal-brand section-2 -->
 <tr class="personal-brand" 
 style="margin-top:100px;">
@@ -267,12 +260,14 @@ style="margin-top:100px;">
         border="0" style="margin-bottom:100px;">
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
+                    <!-- <a href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"> -->
+
                         <img src="images/img-personal-brand.jpg" 
-                        width="270" height="280"  
+                        width="270" height="280" alt="" 
                         alt="logo for personal-brand articles"
                         style="margin-left:20px;"/> 
-                    </a>
+
+                    <!-- </a> -->
                 </td>
             </tr>
         </table>  
@@ -281,32 +276,41 @@ style="margin-top:100px;">
         <table class="right-column" width="50%" 
         align="right" cellspacing="0" cellpadding="0" 
         border="0" style="padding:0px 20px 70px 20px;">
-            <tr>
-                <td>
-                    <h3 style="letter-spacing:4px;">Monday Masterclass</h3>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h2>
-                        Build Your Personal Brand 
-                        Through Online Communities
-                    </h2>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p style="letter-spacing:2px;">
-                        How to successfully promote 
-                        your services on social media.
-                    </p>
-                </td>
-            </tr>
+                <tr>
+                    <td>            
+                        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                        style="text-decoration:none; color:#ffffff;">
+                            <h3 style="letter-spacing:4px;">Monday Masterclass</h3>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>            
+                        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                        style="text-decoration:none; color:#ffffff;">
+                            <h2>
+                                Build Your Personal Brand 
+                                Through Online Communities
+                            </h2>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="letter-spacing:2px;">
+                            How to successfully promote 
+                            your services on social media.
+                        </p>
+                    </td>
+                </tr>
         </table>  
         <!-- end right-column -->
   </td>
 </tr> 
 <!-- end parent-row for personal-brand section-2 -->
+
+
+
 <!-- begin table for accept-payments for section-3 -->
 <tr class="accept-payments" 
 style="margin-top:100px;">
@@ -317,12 +321,10 @@ style="margin-top:100px;">
         border="0" style="margin-bottom:100px;">
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/accept-payments-on-wordpress/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <img src="images/img-accept-payments.png" 
-                        width="270" height="280" 
-                        alt="logo for accept-payments articles"
-                        style="margin-left:20px;"/> 
-                    </a>
+                    <img src="images/img-accept-payments.png" 
+                    width="270" height="280" alt=""
+                    alt="logo for accept-payments articles"
+                    style="margin-left:20px;"/>
                 </td>
             </tr>
         </table>  
@@ -330,18 +332,24 @@ style="margin-top:100px;">
 <!-- begin right-column -->
 <table class="right-column" width="50%" 
 align="right" cellspacing="0" cellpadding="0" 
-border="0" style="padding:0px 20px 70px 4=20px;">
+border="0" style="padding:0px 20px 70px 20px;">
   <tr>
-    <td>
+    <td>            
+        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+        style="text-decoration:none; color:#ffffff;">
         <h3 style="letter-spacing:4px;">Business</h3>
+        </a>
     </td>
 </tr>
 <tr>
-    <td>
+    <td>            
+        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+        style="text-decoration:none; color:#ffffff;">
         <h2>
             Accept Payments 
             <br/>on WordPress Sites
         </h2>
+        </a>
     </td>
 </tr>
 <tr>
@@ -368,12 +376,10 @@ style="margin-top:100px;">
         border="0" style="margin-bottom:100px;">
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/elementor-weekly-news-11/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <img src="images/img-ux-design.png" 
-                        width="270" height="280" 
-                        alt="logo for ux-design articles"
-                        style="margin-left:20px;"/> 
-                    </a>
+                    <img src="images/img-ux-design.png" 
+                    width="270" height="280" alt=""
+                    alt="logo for ux-design articles"
+                    style="margin-left:20px;"/> 
                 </td>
             </tr>
         </table>  
@@ -383,16 +389,22 @@ style="margin-top:100px;">
 align="right" cellspacing="0" cellpadding="0" 
 border="0" style="padding:0px 20px 70px 20px;">
   <tr>
-    <td>
+    <td>            
+        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+        style="text-decoration:none; color:#ffffff;">
         <h3 style="letter-spacing:4px;">Worth Your Click</h3>
+        </a>
     </td>
 </tr>
 <tr>
-    <td>
+    <td>            
+        <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+        style="text-decoration:none; color:#ffffff;">
         <h2>
             UX Design, Attacks on 
             WordPress Sites & More
         </h2>
+        </a>
     </td>
 </tr>
 <tr>
@@ -436,21 +448,22 @@ style="margin-top:100px;">
         background-color:white;">
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/education-and-courses-templates/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <img src="images/img-12-templates.png" 
-                        width="100" height="100" 
-                        alt="logo for "/>
-                    </a>
+                    <img src="images/img-12-templates.png" 
+                    width="100" height="100" alt=""
+                    alt=""/>
                 </td> 
             </tr>
             <tr>
-                <td>
+                <td>            
+                    <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-decoration:none; color:#292929;">
                     <p style="paddi-to; 
                     letter-spacing:2px;">
                         12 Templates 
                         <br/>for Education 
                         <br/>and Courses
                     </p>
+                    </a>
                 </td>
             </tr>
         </table>  
@@ -465,21 +478,22 @@ style="margin-top:100px;">
         background-color:white;">
             <tr>
                 <td>
-                    <a href="https://elementor.com/blog/podcast-41-vito-peleg/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581">
-                        <img src="images/img-vito-peleg.png" 
-                        width="100" height="100" 
-                        alt="logo for elementor"/>
-                    </a>
+                    <img src="images/img-vito-peleg.png" 
+                    width="100" height="100" alt=""
+                    alt="logo for elementor"/>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td>            
+                    <a role="link" href="https://elementor.com/blog/personal-branding-through-online-communities/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    style="text-decoration:none; color:#292929;">
                     <p style="paddi-to; 
                     letter-spacing:2px;">
                         Vito Peleg: 
-                        <br/>The Evolution of 
-                        <br/>a WordPress Business
+                        <br/>The Evolution of a
+                        <br/>WordPress Business
                     </p>
+                    </a>
                 </td>
             </tr>
         </table> 
@@ -498,28 +512,28 @@ style="margin-top:100px;">
             text-align:center;">
             <tr>
                 <td>
-                    <a href="https://www.facebook.com/elemntor?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://www.facebook.com/elemntor?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="margin:0px; padding:0px;">
                         <img src="images/icons-white-nobg-facebook.png"
                         width="50" height="50" alt="facebook icon link">
                     </a>
                 </td>
                 <td>
-                    <a href="https://twitter.com/elemntor?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://twitter.com/elemntor?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="margin:0px; padding:0px;">
                         <img src="images/icons-white-nobg-twitter.png"
                         width="50" height="50" alt="twitter icon link">
                     </a>
                 </td>
                 <td>
-                    <a href="https://elementor.com/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://elementor.com/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="margin:0px; padding:0px;">
                         <img src="images/icons-white-nobg-links.png"
                         width="50" height="50" alt="blog icon link"/>
                     </a>
                 </td>
                 <td>
-                    <a href="https://www.youtube.com/channel/UCt9kG_EDX8zwGSC1-ycJJVA?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://www.youtube.com/channel/UCt9kG_EDX8zwGSC1-ycJJVA?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="margin:0px; padding:0px;">
                         <img src="images/icons-white-nobg-youtube.png"
                         width="50" height="50" alt="youtube icon link"/>
@@ -538,7 +552,7 @@ style="margin-top:100px;">
         text-align:center;">
             <tr>
                 <td style="margin-bottom:100px;">                
-                    <a href="https://elementor.com/blog/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://elementor.com/blog/?utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="text-align:center; text-decoration:none;">
                         <p style="background-color:black; color:white;
                         text-align:center; margin-bottom:50px;
@@ -550,7 +564,7 @@ style="margin-top:100px;">
             </tr>
             <tr>
                 <td>
-                    <a href="https://elementor.us7.list-manage.com/profile?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://elementor.us7.list-manage.com/profile?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="text-align:center; text-decoration:none;">
                         <p style="background-color:black; 
                         color:white; font-size:1.0rem; 
@@ -559,7 +573,7 @@ style="margin-top:100px;">
                         </p>
                     </a>
                     - - -
-                    <a href="https://elementor.us7.list-manage.com/unsubscribe?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
+                    <a role="link" href="https://elementor.us7.list-manage.com/unsubscribe?u=08d77a35a5440eecde6540d14&id=34c18994e0&utm_source=Elementor&utm_campaign=99b1eaa276-EMAIL_CAMPAIGN_MAGAZINE_10_FREE&utm_medium=email&utm_term=0_34c18994e0-99b1eaa276-135375581"
                     style="text-align:center; text-decoration:none;">
                         <p style="background-color:black; color:white;">
                             Unsubscribe
